@@ -17,8 +17,14 @@ $ ls<ENTER>
 
 Copy and paste the output of ls below.
 ----------
-
-
+AMALogger20190109.log	MPLABXProjects		animals
+Adlm			Movies			foo
+Adobe			Music			food
+Applications		New Unity Project	ipe.properties
+Desktop			Pictures		isus
+Documents		Public			mtech1002
+Downloads		QLData			pymel.log
+Library			Things			xgen
 
 ==========
 2a. Type: 
@@ -27,20 +33,16 @@ $ ls D<TAB>
 
 What happens?  Describe it below.
 ----------
-
-
+Nothing happens
 
 ==========
 2b. Press <TAB> one more time.  Copy and paste the output below.
 ----------
-
-
-
+Desktop/   Documents/ Downloads/ 
 ==========
 2c. Now press <ENTER>. Copy and paste the output below.
 ----------
-
-
+ls: D: No such file or directory
 
 ==========
 3.  Type:
@@ -49,7 +51,9 @@ $ ls -l Documents<ENTER>
 
 Copy and paste the first *two lines* of output below.
 ----------
-
+total 8
+drwxr-xr-x   8 student  staff   272 Jan 17  2018 Ableton
+drwxrwxrwx  14 student  staff   476 Jan 17  2018 Adobe
 
 
 ==========
@@ -59,8 +63,8 @@ $ ls -a Documents
 
 Copy and paste the first *two lines* of output below.
 ----------
-
-
+.			Avid Projects		Processing
+..			Fritzing		REAPER Media
 
 ==========
 5.  Type:
@@ -69,7 +73,7 @@ Copy and paste the first *two lines* of output below.
 
 What command was repeated?
 ----------
-
+The "ls -a Documents" list reappeared
 
 
 ==========
@@ -79,7 +83,7 @@ What command was repeated?
 
 What command was repeated?
 ----------
-
+The "ls -l Documents" list reappeared
 
 
 ==========
